@@ -1,0 +1,10 @@
+C:\Projects\TestProjects\VideoLibrary\IMD.VideoLibrary.Utilities\bin\Debug\IMD.VideoLibrary.Utilities.dll
+C:\Projects\TestProjects\VideoLibrary\IMD.VideoLibrary.Utilities\bin\Debug\IMD.VideoLibrary.Utilities.pdb
+C:\Projects\TestProjects\VideoLibrary\IMD.VideoLibrary.Utilities\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Projects\TestProjects\VideoLibrary\IMD.VideoLibrary.Utilities\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Projects\TestProjects\VideoLibrary\IMD.VideoLibrary.Utilities\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Projects\TestProjects\VideoLibrary\IMD.VideoLibrary.Utilities\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Projects\TestProjects\VideoLibrary\IMD.VideoLibrary.Utilities\obj\Debug\IMD.VideoLibrary.Utilities.csprojAssemblyReference.cache
+C:\Projects\TestProjects\VideoLibrary\IMD.VideoLibrary.Utilities\obj\Debug\IMD.VideoLibrary.Utilities.csproj.CopyComplete
+C:\Projects\TestProjects\VideoLibrary\IMD.VideoLibrary.Utilities\obj\Debug\IMD.VideoLibrary.Utilities.dll
+C:\Projects\TestProjects\VideoLibrary\IMD.VideoLibrary.Utilities\obj\Debug\IMD.VideoLibrary.Utilities.pdb

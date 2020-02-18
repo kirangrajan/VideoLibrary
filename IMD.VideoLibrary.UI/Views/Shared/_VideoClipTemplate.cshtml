@@ -1,0 +1,28 @@
+﻿<div id="videoReel_{{videoReel.Id}}" class="panel-collapse collapse" role="tabpanel">
+    <div class="panel-body">
+        <div ng-repeat="videoClip in videoReel.VideoReelVideoClips">
+            <div class="row alert-message alert-message-info">
+                <div class="col-md-6">
+                    <b>{{videoClip.Name}}</b>
+                    <br />
+                    <span>
+                        {{videoClip.Description}}
+                    </span>
+                </div>
+                <div class="col-md-5">
+                    <span>Video standard: {{videoClip.VideoStandard}}</span></br>
+                    <span>Video definition: {{videoClip.VideoDefinition}}</span>
+                    <br />
+                    <span>Start time: {{videoClip.StartTime}}</span></br>
+                    <span>End time : {{videoClip.EndTime}}</span>
+                </div>
+                <div class="col-md-1">
+                    <br />
+                    <a ng-click="deleteVideoClipFromVideoReel(videoReel,videoClip)">
+                        <span class="glyphicon glyphicon-remove" style="cursor:pointer" aria-hidden="true"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

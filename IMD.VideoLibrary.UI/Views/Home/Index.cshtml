@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<div class="container" ng-controller="videoReelController">
+    <h3>Video Library</h3>
+    <div ng-repeat="videoReel in videoReels">
+        <div class="panel panel-info">
+
+            @Html.Partial("_VideoReelTemplate")
+
+            @Html.Partial("_VideoClipTemplate")
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="dc7261a2-3063-4475-b91e-bd8230eaf3ac" name="VideoLibrary" linkedPackageId="60f5d332-e2cc-4a71-bda2-1a35b45a89cf" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="04ca77fa-f462-407d-a2f1-d6a642f6c80d">
+      <profileInstance Id="9c1efbfd-91ba-496f-93a0-34c78bfa1b3b" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="53813a6c-acaa-407d-a3d1-3da2a80e9898">
+      <profileInstance Id="4e458482-49b0-4136-972d-15f5173883b0" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ea141944-1c0a-40e5-b132-b70c251dce35" name="VideoReel" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0613b634-9641-4aae-8d49-a979dbf9aa47" />
+        <suppliersInternal>
+          <interfaceRealization Id="8f9bd302-a563-41c3-8df9-7c2ecc72cc72">
+            <interfaceMoniker Id="08bd44a3-0663-4e59-a2db-14a2cfab2efa" LastKnownName="IVideoReel" />
+            <elementDefinition Id="d54a0d01-16ea-4f4a-90f7-0f6626ab68a9" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="58dcd0ca-fa1c-43db-a625-fc6a0573e6b5" name="Name" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a99b2407-cae2-4c65-bea1-7c75041a696e" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="a659062b-eed8-4cce-adae-3f960e2e4563" LastKnownName="string" />
+            </type_NamedElement>
+          </property>
+          <property Id="d822be27-54ca-4083-865d-a977c749c890" name="VideoStandard" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e7f72ebc-3f6f-4f56-ba5a-b675a6539560" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="219068d0-77c7-423e-bec6-b9e3e6bba1cb" LastKnownName="VideoStandard" />
+            </type_NamedElement>
+          </property>
+          <property Id="0fa372bd-ceee-4d8e-ac44-79f301311f57" name="VideoDefinition" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="918eaa35-f46e-4cde-b843-468149581f50" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="243568d8-fa4b-4a35-b14c-40ace2da16bc" LastKnownName="VideoDefinition" />
+            </type_NamedElement>
+          </property>
+          <property Id="acc940a6-ad59-4315-aa8f-0f5099278c43" name="TotalDuration" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c1218cd1-c75b-402d-a0c7-76fe12cfb452" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="3d6e2bd6-ef65-4928-848b-46438722793e" LastKnownName="TimeCode" />
+            </type_NamedElement>
+          </property>
+          <property Id="5533a421-e8ef-4196-b5c6-373b3ae7a7a0" name="Clips" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4e5a0160-1ae7-4447-9f6c-16cf255201a6" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="70bf137e-55aa-4aca-b19f-d0725591933b" LastKnownName="ICollection&lt;IVideoClip&gt;" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="a659062b-eed8-4cce-adae-3f960e2e4563" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="3d4ad5d0-67f1-46be-948d-7f84f530c8d3" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="219068d0-77c7-423e-bec6-b9e3e6bba1cb" name="VideoStandard" isAbstract="false" isLeaf="false" cachedFullName="VideoStandard">
+        <elementDefinition Id="4ffaec83-cda2-42a7-a56e-e8b03570a582" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="243568d8-fa4b-4a35-b14c-40ace2da16bc" name="VideoDefinition" isAbstract="false" isLeaf="false" cachedFullName="VideoDefinition">
+        <elementDefinition Id="a2bf4bb5-b5e1-4c79-a1c9-d7eb0bc8ae76" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="3d6e2bd6-ef65-4928-848b-46438722793e" name="TimeCode" isAbstract="false" isLeaf="false" cachedFullName="TimeCode">
+        <elementDefinition Id="6fb4d7b2-dc6c-460b-8301-fec2d78a5c90" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="200e074c-5f9a-4285-92db-fa609874fe9b" name="VideoStandardPAL" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="cccc4b17-f89a-4376-8111-70776d83395d" />
+        <suppliersInternal>
+          <interfaceRealization Id="5a8528fe-a7e4-42ca-9962-d7cd49d9b84d">
+            <interfaceMoniker Id="cf59066b-caef-4e9e-ae6a-db24d4bc3a9a" LastKnownName="IVideoStandard" />
+            <elementDefinition Id="a9cb9004-a5df-4eae-9a3b-1d7f66564b83" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="cf59066b-caef-4e9e-ae6a-db24d4bc3a9a" name="IVideoStandard" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a6c551e1-a7ee-442c-858a-9601b06b2aa9" />
+        <ownedAttributes>
+          <property Id="cd56754e-1eda-4518-8aed-940c7016dd18" name="Type" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1bc8f79e-b9ac-41aa-a333-9965d7052222" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="a659062b-eed8-4cce-adae-3f960e2e4563" LastKnownName="string" />
+            </type_NamedElement>
+          </property>
+          <property Id="4469a25a-2528-4373-a104-6362db486e29" name="FramePerSecond" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="62878e1b-da20-414f-ba33-8ad611a6eb91" />
+          </property>
+        </ownedAttributes>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="af959035-32ca-4e46-99b0-f629d26c54eb" name="VideoStandardNTSC" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="aba60693-9aa6-4179-b2de-cd31eb58ffda" />
+        <suppliersInternal>
+          <interfaceRealization Id="2f23d730-48b1-4d4c-96ec-2810312d35a1">
+            <interfaceMoniker Id="cf59066b-caef-4e9e-ae6a-db24d4bc3a9a" LastKnownName="IVideoStandard" />
+            <elementDefinition Id="8ba64d78-ecc1-46ec-917d-aad660d139f9" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="30a23a14-47b9-4033-be4f-ef6bc47f5708" name="VideoClip" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="beb648d1-c8fb-4b53-a121-359cd8a35bee" />
+        <suppliersInternal>
+          <dependency Id="20de52cf-e0a0-4442-b61d-6ecf98a2c8c8">
+            <enumerationMoniker Id="5fc02c37-d1dc-48cf-8fdc-734b6aac84e5" LastKnownName="VideoDefinition" />
+            <elementDefinition Id="ee532df5-7a11-46fc-ac2c-1291fb8a6241" />
+          </dependency>
+          <interfaceRealization Id="0fcc3bf4-9c43-4d5a-9f01-c56df350f21d">
+            <interfaceMoniker Id="38dce454-601b-4c81-a05b-d2d7f0bc4b77" LastKnownName="IVideoClip" />
+            <elementDefinition Id="303e4db8-c2b8-492c-b742-c44bf03b52fd" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="14e4757f-db22-4387-8777-69f4aa278eaa" name="Name" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="560f4786-aa8d-4d74-890e-580a9bd99e5d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="a659062b-eed8-4cce-adae-3f960e2e4563" LastKnownName="string" />
+            </type_NamedElement>
+          </property>
+          <property Id="84b2a69e-d541-487c-a834-b87f0e65eb03" name="Description" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c42c4c9c-67ea-4074-9a2c-6aa386c1c848" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="a659062b-eed8-4cce-adae-3f960e2e4563" LastKnownName="string" />
+            </type_NamedElement>
+          </property>
+          <property Id="552c72b8-5aaf-40ba-be47-6012040a8155" name="VideoStandard" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1841b9c1-cdf8-4a6d-a92c-67a2a2327f49" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="219068d0-77c7-423e-bec6-b9e3e6bba1cb" LastKnownName="VideoStandard" />
+            </type_NamedElement>
+          </property>
+          <property Id="e0e73633-7827-4820-b10c-0f9cbf767a4f" name="VideoDefinition" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3db73257-a6d3-4633-8dcf-71bac1894818" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="ead7db29-91b2-434c-8a09-90af17b76405" LastKnownName="VideoDefinition" />
+            </type_NamedElement>
+          </property>
+          <property Id="b040ae67-755e-429c-bd09-28bcbcba13c0" name="StartTime" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8f1948d5-b51a-4c27-9628-1be39912065c" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="3d6e2bd6-ef65-4928-848b-46438722793e" LastKnownName="TimeCode" />
+            </type_NamedElement>
+          </property>
+          <property Id="ae92ab98-69be-4b5c-ad3a-1f1c0610ab57" name="EndTime" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="411ec089-8c4e-4632-8c36-77cd495288a6" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="3d6e2bd6-ef65-4928-848b-46438722793e" LastKnownName="TimeCode" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <enumeration Id="5fc02c37-d1dc-48cf-8fdc-734b6aac84e5" name="VideoDefinition" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="505bfa23-bbbd-4ae8-b045-b135c2bc433f" />
+        <ownedLiterals>
+          <enumerationLiteral Id="2f19d930-38b5-4222-9592-c6d10a389b74" name="SD">
+            <elementDefinition Id="3dc62445-55e9-4992-ad93-23c10e8672ff" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="497a2648-1d2c-4d32-8b8b-6c2d99fe59ba" name="HD">
+            <elementDefinition Id="513c8ef4-8a90-43df-98ee-ed06163f48a8" />
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="ead7db29-91b2-434c-8a09-90af17b76405" name="VideoDefinition" isAbstract="false" isLeaf="false" cachedFullName="IMD.VideoLibrary.Research::VideoDefinition">
+        <elementDefinition Id="505bfa23-bbbd-4ae8-b045-b135c2bc433f" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="70bf137e-55aa-4aca-b19f-d0725591933b" name="ICollection&lt;IVideoClip&gt;" isAbstract="false" isLeaf="false" cachedFullName="ICollection&lt;IVideoClip&gt;">
+        <elementDefinition Id="40728be8-6603-4066-99b3-022c6f0cca6b" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="38dce454-601b-4c81-a05b-d2d7f0bc4b77" name="IVideoClip" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="29e3bfff-ab3b-47e6-8b46-f51dba536255" />
+        <ownedAttributes>
+          <property Id="4720ad66-d1ba-4946-a31d-2b969cad90ea" name="Description" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9a8c3078-b0d5-42cc-8ee9-a2ac41f0a703" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="bceecebe-f6a8-46e9-8ba2-c11482756f8b" LastKnownName="string" />
+            </type_NamedElement>
+          </property>
+          <property Id="05132d06-5ec5-4ecf-a4e8-8930956d4f98" name="Name" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="eb043081-99de-4921-8e45-754146ff7fcc" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="bceecebe-f6a8-46e9-8ba2-c11482756f8b" LastKnownName="string" />
+            </type_NamedElement>
+          </property>
+          <property Id="3e08bcd7-7b7b-4aec-8be8-abc1120af713" name="VideoDefinition" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4f29026e-bb27-4152-860f-77702b162caa" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="0ab2a5d8-478b-4f25-9860-0b7692514759" LastKnownName="VideoDefinition" />
+            </type_NamedElement>
+          </property>
+          <property Id="4f2c1895-9915-4377-bfbd-d8d2f672c472" name="VideoStandard" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7c52a3ab-3af5-4fd5-95c5-a1a11be3e7f0" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="4d9f150e-38e6-42fa-9ca0-a3009ed2d43a" LastKnownName="VideoStandard" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributes>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="bceecebe-f6a8-46e9-8ba2-c11482756f8b" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="3d4ad5d0-67f1-46be-948d-7f84f530c8d3" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="0ab2a5d8-478b-4f25-9860-0b7692514759" name="VideoDefinition" isAbstract="false" isLeaf="false" cachedFullName="IMD.VideoLibrary.Research::VideoDefinition">
+        <elementDefinition Id="505bfa23-bbbd-4ae8-b045-b135c2bc433f" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="4d9f150e-38e6-42fa-9ca0-a3009ed2d43a" name="VideoStandard" isAbstract="false" isLeaf="false" cachedFullName="VideoStandard">
+        <elementDefinition Id="4ffaec83-cda2-42a7-a56e-e8b03570a582" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="08bd44a3-0663-4e59-a2db-14a2cfab2efa" name="IVideoReel" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="96a43db6-8fc9-4a3e-ba24-cd10caa3a0ec" />
+        <ownedAttributes>
+          <property Id="c900bb1b-628d-4a15-907d-639bbb22a1ca" name="Clips" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="240e7f33-ba14-424d-9e4d-03101b68e557" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="e7156476-f776-48e2-bfb7-0f93f2080f9b" LastKnownName="ICollection&lt;IVideoClip&gt;" />
+            </type_NamedElement>
+          </property>
+          <property Id="59a55ee0-ed66-4fac-8f9b-6e1b9547f287" name="Name" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="01b7e6fe-61d8-4dce-a285-0f571e48e5b7" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="a5a34413-4499-41fa-bfb9-301160658001" LastKnownName="string" />
+            </type_NamedElement>
+          </property>
+          <property Id="ebce59ea-2d32-4071-8a59-c04adfeb292c" name="TotalDuration" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="64cf54df-da76-4c9d-8c4f-92b78675ce67" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="807f987c-aa3c-4dad-8992-b3cbac6b11ba" LastKnownName="TimeCode" />
+            </type_NamedElement>
+          </property>
+          <property Id="05bb76a7-2758-4625-8ced-ebe19e6fb2f3" name="VideoDefinition" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e273d20d-72a3-493c-bddc-540d545d5996" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="88380dea-3b1e-44b3-a31c-5fe39abefa5a" LastKnownName="VideoDefinition" />
+            </type_NamedElement>
+          </property>
+          <property Id="0b9e64bd-b5c5-4da5-9e8d-215e237cb92e" name="VideoStandard" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="16dacc36-dc22-49b1-8d41-f4d02104c608" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="7aefb5e8-4d2c-49fa-a85b-80607fc99a1d" LastKnownName="VideoStandard" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributes>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="e7156476-f776-48e2-bfb7-0f93f2080f9b" name="ICollection&lt;IVideoClip&gt;" isAbstract="false" isLeaf="false" cachedFullName="ICollection&lt;IVideoClip&gt;">
+        <elementDefinition Id="40728be8-6603-4066-99b3-022c6f0cca6b" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="a5a34413-4499-41fa-bfb9-301160658001" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="3d4ad5d0-67f1-46be-948d-7f84f530c8d3" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="807f987c-aa3c-4dad-8992-b3cbac6b11ba" name="TimeCode" isAbstract="false" isLeaf="false" cachedFullName="TimeCode">
+        <elementDefinition Id="6fb4d7b2-dc6c-460b-8301-fec2d78a5c90" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="88380dea-3b1e-44b3-a31c-5fe39abefa5a" name="VideoDefinition" isAbstract="false" isLeaf="false" cachedFullName="VideoDefinition">
+        <elementDefinition Id="a2bf4bb5-b5e1-4c79-a1c9-d7eb0bc8ae76" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="7aefb5e8-4d2c-49fa-a85b-80607fc99a1d" name="VideoStandard" isAbstract="false" isLeaf="false" cachedFullName="VideoStandard">
+        <elementDefinition Id="4ffaec83-cda2-42a7-a56e-e8b03570a582" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="60f5d332-e2cc-4a71-bda2-1a35b45a89cf" name="IMD.VideoLibrary.Research">
+    <elementDefinition Id="f23b5d93-5d1a-4f24-af47-b3c04f230a31" />
+  </package>
+</logicalClassDesignerModel>

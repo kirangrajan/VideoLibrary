@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMD.VideoLibrary.DomainModel", "IMD.VideoLibrary.DomainModel\IMD.VideoLibrary.DomainModel.csproj", "{79385E93-B123-46C4-A27A-A935AEF8857E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMD.VideoLibrary.BusinessLogic", "IMD.VideoLibrary.BusinessLogic\IMD.VideoLibrary.BusinessLogic.csproj", "{2A5EF215-D9A7-43BB-AF24-45325DEF0B3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMD.VideoLibrary.Repository", "IMD.VideoLibrary.Repository\IMD.VideoLibrary.Repository.csproj", "{5BC149A0-0099-4498-A7F2-C1D581D114A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMD.VideoLibrary.Utilities", "IMD.VideoLibrary.Utilities\IMD.VideoLibrary.Utilities.csproj", "{AB8FB035-8598-4080-A2E1-F3BEFC4D3E80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMD.VideoLibrary.ViewModel", "IMD.VideoLibrary.ViewModel\IMD.VideoLibrary.ViewModel.csproj", "{0D3B90EC-08ED-4F96-817E-4F90F5FECDB8}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "IMD.VideoLibrary.Database", "IMD.VideoLibrary.Database\IMD.VideoLibrary.Database.sqlproj", "{D6FF9C4E-42D4-4ADE-8371-E75BB75439A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMD.VideoLibrary.UI", "IMD.VideoLibrary.UI\IMD.VideoLibrary.UI.csproj", "{68A6C804-571B-4475-867E-8F3C3561CC4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMD.VideoLibrary.UI.Test", "IMD.VideoLibrary.UI.Test\IMD.VideoLibrary.UI.Test.csproj", "{DE0500A9-04D0-468E-BBBF-B680CCE0AEC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMD.VideoLibrary.ViewModel.Test", "IMD.VideoLibrary.ViewModel.Test\IMD.VideoLibrary.ViewModel.Test.csproj", "{65FD7ABF-E457-407B-9978-2EEEB46E16BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMD.VideoLibrary.BusinessLogic.Test", "IMD.VideoLibrary.BusinessLogic.Test\IMD.VideoLibrary.BusinessLogic.Test.csproj", "{A4859EF3-36C0-4BAE-BB9E-FCF2E8C10258}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79385E93-B123-46C4-A27A-A935AEF8857E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79385E93-B123-46C4-A27A-A935AEF8857E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79385E93-B123-46C4-A27A-A935AEF8857E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79385E93-B123-46C4-A27A-A935AEF8857E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A5EF215-D9A7-43BB-AF24-45325DEF0B3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A5EF215-D9A7-43BB-AF24-45325DEF0B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A5EF215-D9A7-43BB-AF24-45325DEF0B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A5EF215-D9A7-43BB-AF24-45325DEF0B3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC149A0-0099-4498-A7F2-C1D581D114A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC149A0-0099-4498-A7F2-C1D581D114A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC149A0-0099-4498-A7F2-C1D581D114A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC149A0-0099-4498-A7F2-C1D581D114A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB8FB035-8598-4080-A2E1-F3BEFC4D3E80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8FB035-8598-4080-A2E1-F3BEFC4D3E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8FB035-8598-4080-A2E1-F3BEFC4D3E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8FB035-8598-4080-A2E1-F3BEFC4D3E80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D3B90EC-08ED-4F96-817E-4F90F5FECDB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D3B90EC-08ED-4F96-817E-4F90F5FECDB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D3B90EC-08ED-4F96-817E-4F90F5FECDB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D3B90EC-08ED-4F96-817E-4F90F5FECDB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6FF9C4E-42D4-4ADE-8371-E75BB75439A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6FF9C4E-42D4-4ADE-8371-E75BB75439A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6FF9C4E-42D4-4ADE-8371-E75BB75439A0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D6FF9C4E-42D4-4ADE-8371-E75BB75439A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6FF9C4E-42D4-4ADE-8371-E75BB75439A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6FF9C4E-42D4-4ADE-8371-E75BB75439A0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{68A6C804-571B-4475-867E-8F3C3561CC4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A6C804-571B-4475-867E-8F3C3561CC4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A6C804-571B-4475-867E-8F3C3561CC4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A6C804-571B-4475-867E-8F3C3561CC4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE0500A9-04D0-468E-BBBF-B680CCE0AEC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0500A9-04D0-468E-BBBF-B680CCE0AEC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0500A9-04D0-468E-BBBF-B680CCE0AEC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0500A9-04D0-468E-BBBF-B680CCE0AEC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65FD7ABF-E457-407B-9978-2EEEB46E16BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65FD7ABF-E457-407B-9978-2EEEB46E16BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65FD7ABF-E457-407B-9978-2EEEB46E16BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65FD7ABF-E457-407B-9978-2EEEB46E16BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4859EF3-36C0-4BAE-BB9E-FCF2E8C10258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4859EF3-36C0-4BAE-BB9E-FCF2E8C10258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4859EF3-36C0-4BAE-BB9E-FCF2E8C10258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4859EF3-36C0-4BAE-BB9E-FCF2E8C10258}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

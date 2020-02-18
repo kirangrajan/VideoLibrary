@@ -1,0 +1,44 @@
+﻿<div class="panel-heading" role="tab">
+    <div class="panel-title">
+        <div class="row small">
+            <div class="col-md-1">
+                <img src="~/Content/images/VideoLibrary.png" />
+            </div>
+            <div class="col-md-4">
+                <input ng-model="videoReel.Name">
+                <input class="btn btn-success btn-sm" value="Save" type="button" ng-click="saveVideoReel(videoReel)" />
+                <p>Video Standard: {{videoReel.VideoStandard}}</p>
+                <p>Video Definition: {{videoReel.VideoDefinition}}</p>
+                <p>TotalDuration: {{videoReel.TotalDuration}}</p>
+            </div>
+            <div class="col-md-5">
+                <p>
+                    <ul class="list-inline">
+                        <li>Choose a video clip :</li>
+                        <li>
+                            <select class="form-control" style="min-width:160px;" ng-model="videoReel.SelectedVideoClipId">
+                                <option ng-repeat="videoClip in videoReel.VideoClips" value="{{videoClip.Id}}">
+                                    {{videoClip.Name}}
+                                </option>
+
+                            </select>
+                        </li>
+                        <li>
+                            <input class="btn btn-primary btn-sm" value="Add" type="button" ng-click="addVideoClipToVideoReel(videoReel)">
+                        </li>
+                        <li><b>{{videoReel.ErrorMessage}}</b></li>
+                    </ul>
+                </p>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-inline">
+                    <li style="padding-left:10px;">
+                        <a class="btn btn-info btn-sm collapsed" role="button" data-toggle="collapse" href="#videoReel_{{videoReel.Id}}" aria-expanded="false" aria-controls="collapseOne">
+                            {{videoReel.TotalVideoClips}}  V
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

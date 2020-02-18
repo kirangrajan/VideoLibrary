@@ -1,0 +1,15 @@
+D:\Projects\IMD.VideoLibrary\IMD.VideoLibrary.Database\bin\Release\IMD.VideoLibrary.Database.dacpac
+D:\Projects\IMD.VideoLibrary\IMD.VideoLibrary.Database\bin\Release\IMD.VideoLibrary.Database.dll
+D:\Projects\IMD.VideoLibrary\IMD.VideoLibrary.Database\bin\Release\IMD.VideoLibrary.Database.pdb
+D:\Projects\IMD.VideoLibrary\IMD.VideoLibrary.Database\bin\Release\mscorlib.dll
+D:\Projects\IMD.VideoLibrary\IMD.VideoLibrary.Database\bin\Release\normidna.nlp
+D:\Projects\IMD.VideoLibrary\IMD.VideoLibrary.Database\bin\Release\normnfc.nlp
+D:\Projects\IMD.VideoLibrary\IMD.VideoLibrary.Database\bin\Release\normnfd.nlp
+D:\Projects\IMD.VideoLibrary\IMD.VideoLibrary.Database\bin\Release\normnfkc.nlp
+D:\Projects\IMD.VideoLibrary\IMD.VideoLibrary.Database\bin\Release\normnfkd.nlp
+D:\Projects\IMD.VideoLibrary\IMD.VideoLibrary.Database\obj\Release\Model.xml
+D:\Projects\IMD.VideoLibrary\IMD.VideoLibrary.Database\obj\Release\refactor.xml
+D:\Projects\IMD.VideoLibrary\IMD.VideoLibrary.Database\obj\Release\postdeploy.sql
+D:\Projects\IMD.VideoLibrary\IMD.VideoLibrary.Database\obj\Release\predeploy.sql
+D:\Projects\IMD.VideoLibrary\IMD.VideoLibrary.Database\obj\Release\IMD.VideoLibrary.Database.dll
+D:\Projects\IMD.VideoLibrary\IMD.VideoLibrary.Database\obj\Release\IMD.VideoLibrary.Database.pdb
